@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.button {
+background-color: #706677;
+color: white;
+border-radius: 5px;
+}
+
+.list-inline2 > li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.cropped-ofp {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: 25% 25%;
+  padding: 10px;
+  border-radius: 30px;
+  }
+
+.button:hover {
+  color: white;
+  background-color: #565264;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  margin: 20px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border: 4px solid #F0ACDE;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+body {
+  background: url(https://wallpaperaccess.com/full/3606442.jpg) no-repeat fixed center center, linear-gradient(#FFD6F4, #CCB7AE) fixed;
+}
+
+p {
+  font-size: 18;
+  color: #A6808C;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 30;
+  color: #A6808C;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 24;
+  line-height: 1.5;
+  color: #A6808C;
+  text-align: center;
+}
+
+a {
+  font-size: 18;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #706677;
+  text-decoration: none;
+  text-align: center;
+}
+
+a:hover {
+  color: #565264;
+}
+
+#line-spacing {
+  line-height: 0;
+}
+
+#linespacing2 {
+  line-height: 3;
+}
