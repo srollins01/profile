@@ -50,8 +50,9 @@ width: 50%;
 }
 
 body {
-  background: url(https://64.media.tumblr.com/2bd546bbc72da9a8ccf251922b1e05ac/tumblr_mqpoziggwt1s5jjtzo1_640.gifv#https://64.media.tumblr.com/2bd546bbc72da9a8ccf251922b1e05ac/tumblr_mqpoziggwt1s5jjtzo1_500.gifv),
-              url(https://wallpaperaccess.com/full/3606442.jpg) no-repeat fixed center center, linear-gradient(#FFD6F4, #CCB7AE) fixed;
+  background: linear-gradient(to bottom, #ffe6f9ec, #ffdff71a), url(https://64.media.tumblr.com/2bd546bbc72da9a8ccf251922b1e05ac/tumblr_mqpoziggwt1s5jjtzo1_640.gifv#https://64.media.tumblr.com/2bd546bbc72da9a8ccf251922b1e05ac/tumblr_mqpoziggwt1s5jjtzo1_500.gifv),
+              url(https://wallpaperaccess.com/full/3606442.jpg);
+  background-size: cover;
 }
 
 p {
