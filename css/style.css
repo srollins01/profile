@@ -1,5 +1,22 @@
+/* ------ */
+
+/* CSS Components */
+@import url("components/card.css");
+
+
+/* Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+/* ------ */
+
+#line-spacing {
+  line-height: 0;
+}
+
+#linespacing2 {
+  line-height: 3;
+}
 
 .button {
 background-color: #706677;
@@ -9,6 +26,17 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 width: 50%;
+}
+
+.button:hover {
+  color: white;
+  background-color: #565264;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  text-align: center;
 }
 
 .list-inline2 > li {
@@ -21,41 +49,9 @@ width: 50%;
   margin: 0 auto;
 }
 
-.container .card img {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-  object-position: 25% 25%;
-  padding: 10px;
-  border-radius: 30px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  }
-
-.button:hover {
-  color: white;
-  background-color: #565264;
-}
-
-.card {
-  background: white;
-  padding: 15px;
-  margin: 20px;
-  border: 1px solid lightgrey;
-  border-radius: 5px;
-  box-shadow: 0 10px 30px rgba(0,0,0,.1);
-  border: 4px solid #F0ACDE;
-}
-
-.list-inline {
-  list-style: none;
-  padding-left: 0px;
-  text-align: center;
-}
-
 body {
-  background: url(https://64.media.tumblr.com/2bd546bbc72da9a8ccf251922b1e05ac/tumblr_mqpoziggwt1s5jjtzo1_640.gifv#https://64.media.tumblr.com/2bd546bbc72da9a8ccf251922b1e05ac/tumblr_mqpoziggwt1s5jjtzo1_500.gifv), url(https://wallpaperaccess.com/full/3606442.jpg) no-repeat fixed center center, linear-gradient(#FFD6F4, #CCB7AE) fixed;
+  background: url(https://64.media.tumblr.com/2bd546bbc72da9a8ccf251922b1e05ac/tumblr_mqpoziggwt1s5jjtzo1_640.gifv#https://64.media.tumblr.com/2bd546bbc72da9a8ccf251922b1e05ac/tumblr_mqpoziggwt1s5jjtzo1_500.gifv),
+              url(https://wallpaperaccess.com/full/3606442.jpg) no-repeat fixed center center, linear-gradient(#FFD6F4, #CCB7AE) fixed;
 }
 
 p {
@@ -94,14 +90,6 @@ a {
 
 a:hover {
   color: #565264;
-}
-
-#line-spacing {
-  line-height: 0;
-}
-
-#linespacing2 {
-  line-height: 3;
 }
 
 @media (max-width: 960px) {
